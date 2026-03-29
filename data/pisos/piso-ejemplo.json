@@ -1,0 +1,39 @@
+{
+  "slug": "piso-ejemplo",
+  "nombre": "Piso en el Centro · 3 hab · 92m²",
+  "kuula_embed": "https://kuula.co/share/collection/7lB7h?logo=1&info=1&fs=1&vr=0&zoom=1&sd=1&thumbs=1",
+  "precio": 285000,
+  "superficie": 92,
+  "habitaciones": 3,
+  "banos": 2,
+  "orientacion": "Sur",
+  "planta": "4ª con ascensor",
+  "ano_reforma": 2021,
+  "certificado_energetico": "C",
+  "comunidad_mes": 85,
+  "ibi_anual": 420,
+  "direccion": "Calle Mayor 14, Madrid",
+  "descripcion": "Piso completamente reformado en 2021, techos altos de 2.90m, suelos de madera maciza, cocina abierta al salón totalmente equipada con electrodomésticos Bosch. Luminoso y tranquilo.",
+  "extras": [
+    "Trastero incluido",
+    "Plaza de garaje opcional +15.000€",
+    "Calefacción individual de gas",
+    "Aire acondicionado en todas las habitaciones",
+    "Armarios empotrados en los tres dormitorios"
+  ],
+  "habitaciones_detalle": [
+    { "nombre": "Salón-comedor", "m2": 28 },
+    { "nombre": "Cocina abierta", "m2": 12 },
+    { "nombre": "Dormitorio principal", "m2": 18 },
+    { "nombre": "Dormitorio 2", "m2": 14 },
+    { "nombre": "Dormitorio 3", "m2": 10 },
+    { "nombre": "Baño principal", "m2": 6 },
+    { "nombre": "Baño secundario", "m2": 4 }
+  ],
+  "agente": {
+    "nombre": "Carlos García",
+    "email": "carlos@inmobiliaria.com",
+    "telefono": "+34 600 123 456",
+    "agencia": "Inmobiliaria Centro Madrid"
+  }
+}
