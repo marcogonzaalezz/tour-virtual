@@ -3,9 +3,9 @@ import Anthropic from '@anthropic-ai/sdk'
 import { getPiso, buildSystemPrompt } from '@/lib/pisos'
 import { ChatMessage } from '@/types'
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-})
+const anthropic = process.env.ANTHROPIC_API_KEY 
+  ? new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+  : null as any
 
 const MAX_TURNS = 20
 
