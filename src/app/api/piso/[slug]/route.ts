@@ -3,9 +3,10 @@ import { getPiso } from '@/lib/pisos'
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
-  const piso = getPiso(params.slug)
+  const { slug } = await params
+  const piso = getPiso(slug)
 
   if (!piso) {
     return NextResponse.json({ error: 'No encontrado' }, { status: 404 })
